@@ -3,7 +3,11 @@ export type Player = {
   name: string;
   img: string;
   money: number;
-  fieldId: number;
+  positionFieldId: number;
+  isBankrupt: boolean;
+  cards: any[];
+  houses: any[];
+  properties: any[];
 };
 
 export type DiceResult = 1 | 2 | 3 | 4 | 5 | 6;

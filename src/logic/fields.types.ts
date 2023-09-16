@@ -19,21 +19,21 @@ type LinePropertyCosts = PropertyCosts & {
   hotel: number;
 };
 
-type CommonField = {
+export type CommonField = {
   id: number;
   stringId: StringFieldId;
   name: string;
   img?: string;
 };
 
-type LinePropertyField = CommonField & {
+export type LinePropertyField = CommonField & {
   type: 'LINE_PROPERTY';
   purchasable: true;
   costs: LinePropertyCosts;
   incomes: LinePropertyIncomes;
 };
 
-type PropertyField = CommonField & {
+export type PropertyField = CommonField & {
   type: 'PROPERTY';
   purchasable: true;
   costs: PropertyCosts;
