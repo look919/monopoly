@@ -1,9 +1,13 @@
-const HomePage = () => {
+import Link from 'next/link';
+import { buttonVariants } from '@components/ui/button';
+
+export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col p-24'>
-      <div className='flex w-full max-w-5xl justify-center text-2xl'>Boilerplate</div>
+    <main>
+      <h1>Hello world!</h1>
+      <Link href='/game/32' className={buttonVariants({ size: 'sm', variant: 'outline' })}>
+        Click here
+      </Link>
     </main>
   );
-};
-
-export default HomePage;
+}

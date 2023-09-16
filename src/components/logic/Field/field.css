@@ -1,0 +1,27 @@
+.field {
+  display: grid;
+  grid-template-rows: [ownership] min-content [name] 1fr [field-icon] 1fr [value] min-content;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  box-shadow: 35px -25px 20px 5px rgba(66, 63, 90, 0.4);
+}
+
+.field-shadow-inset {
+  box-shadow: 35px 25px 20px 0px rgba(66, 63, 90, 0.2);
+}
+
+.icon-with-name {
+  grid-row: field-icon;
+}
+
+.icon-without-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-row: name / value;
+}
+
+.value {
+  grid-row: value;
+}

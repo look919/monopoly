@@ -2,10 +2,99 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  position: relative;
+  max-width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,7 +103,31 @@
   }
 }
 
-body {
-  background-color: black;
-  color: white;
+.game-container {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: end;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(13, 64px);
+  grid-template-areas:
+    'w-cup w-cup duty2 l5-1 qm4  l5-2 rail3 l6-1  dice2 l6-2 l6-3 plane plane'
+    'w-cup w-cup duty2 l5-1 qm4  l5-2 rail3 l6-1  dice2 l6-2 l6-3 plane plane'
+    'l4-2  l4-2  none  none none none none  none  none  none none l7-1  l7-1'
+    'qm3   qm3   none  none none none none  none  none  none none qm5   qm5'
+    'l4-1  l4-1  none  none none none none  none  none  none none l7-2  l7-2'
+    'tax   tax   none  none none none none  none  none  none none l7-3  l7-3'
+    'rail2 rail2 none  none none none none  none  none  none none rail4 rail4'
+    'l3-3  l3-3  none  none none none none  none  none  none none qm6   qm6'
+    'dice1 dice1 none  none none none none  none  none  none none l8-1  l8-1'
+    'l3-2  l3-2  none  none none none none  none  none  none none duty3 duty3'
+    'l3-1  l3-1  none  none none none none  none  none  none none l8-2  l8-2'
+    'jail  jail  l2-3  l2-2 qm2  l2-1 rail1 duty1 l1-2  qm1  l1-1 start start'
+    'jail  jail  l2-3  l2-2 qm2  l2-1 rail1 duty1 l1-2  qm1  l1-1 start start';
+}
+
+.center-img {
+  grid-area: none;
+  width: 100%;
+  height: 100%;
 }

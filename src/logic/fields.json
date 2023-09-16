@@ -1,0 +1,276 @@
+[
+  { "type": "SPECIAL", "id": 0, "stringId": "start", "name": "Start", "img": "", "purchasable": false },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 1,
+    "stringId": "l1-1",
+    "name": "Gdansk",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  { "type": "SPECIAL", "id": 2, "stringId": "qm1", "name": "Question Mark", "img": "", "purchasable": false },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 3,
+    "stringId": "l1-2",
+    "name": "Warsaw",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  { "type": "SPECIAL", "id": 4, "stringId": "duty1", "name": "Duty", "img": "", "purchasable": false },
+  {
+    "type": "PROPERTY",
+    "id": 5,
+    "stringId": "rail1",
+    "name": "Southern Railroads",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0 },
+    "incomes": { "property": 0, "sell": 0 }
+  },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 6,
+    "stringId": "l2-1",
+    "name": "Lyon",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  { "type": "SPECIAL", "id": 7, "stringId": "qm2", "name": "Question mark", "img": "", "purchasable": false },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 8,
+    "stringId": "l2-2",
+    "name": "Marseille",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 9,
+    "stringId": "l2-3",
+    "name": "Paris",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  { "type": "SPECIAL", "id": 10, "stringId": "jail", "name": "JAIL", "img": "", "purchasable": false },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 11,
+    "stringId": "l3-1",
+    "name": "Liverpool",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 12,
+    "stringId": "l3-2",
+    "name": "Glasgow",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  {
+    "type": "PROPERTY",
+    "id": 13,
+    "stringId": "dice1",
+    "name": "Waterworks",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0 },
+    "incomes": { "property": 0, "sell": 0 }
+  },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 14,
+    "stringId": "l3-3",
+    "name": "London",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  {
+    "type": "PROPERTY",
+    "id": 15,
+    "stringId": "rail2",
+    "name": "Western Railroads",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0 },
+    "incomes": { "property": 0, "sell": 0 }
+  },
+  { "type": "SPECIAL", "id": 16, "stringId": "tax", "name": "Taxes", "img": "", "purchasable": false },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 17,
+    "stringId": "l4-1",
+    "name": "Oslo",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  { "type": "SPECIAL", "id": 18, "stringId": "qm3", "name": "Question Mark", "img": "", "purchasable": false },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 19,
+    "stringId": "l4-2",
+    "name": "Stockholm",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  { "type": "SPECIAL", "id": 20, "stringId": "w-cup", "name": "EURO", "img": "", "purchasable": false },
+  { "type": "SPECIAL", "id": 21, "stringId": "duty2", "name": "Duty", "img": "", "purchasable": false },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 22,
+    "stringId": "l5-1",
+    "name": "Brussels",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  { "type": "SPECIAL", "id": 23, "stringId": "qm4", "name": "Question mark", "img": "", "purchasable": false },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 24,
+    "stringId": "l5-2",
+    "name": "Amsterdam",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  {
+    "type": "PROPERTY",
+    "id": 25,
+    "stringId": "rail3",
+    "name": "Northern Railroads",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0 },
+    "incomes": { "property": 0, "sell": 0 }
+  },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 26,
+    "stringId": "l6-1",
+    "name": "Naples",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  {
+    "type": "PROPERTY",
+    "id": 27,
+    "stringId": "dice2",
+    "name": "Power Station",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0 },
+    "incomes": { "property": 0, "sell": 0 }
+  },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 28,
+    "stringId": "l6-2",
+    "name": "Milan",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 29,
+    "stringId": "l6-3",
+    "name": "Rome",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  { "type": "SPECIAL", "id": 30, "stringId": "plane", "name": "Airport", "img": "", "purchasable": false },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 31,
+    "stringId": "l7-1",
+    "name": "Munich",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  { "type": "SPECIAL", "id": 32, "stringId": "qm5", "name": "Question mark", "img": "", "purchasable": false },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 33,
+    "stringId": "l7-2",
+    "name": "Hamburg",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 34,
+    "stringId": "l7-3",
+    "name": "Berlin",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  {
+    "type": "PROPERTY",
+    "id": 35,
+    "stringId": "rail4",
+    "name": "Eastern Railroads",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0 },
+    "incomes": { "property": 0, "sell": 0 }
+  },
+  { "type": "SPECIAL", "id": 36, "stringId": "qm6", "name": "Karta 6", "img": "", "purchasable": false },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 37,
+    "stringId": "l8-1",
+    "name": "Barcelona",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  },
+  { "type": "SPECIAL", "id": 38, "stringId": "duty3", "name": "Duty", "img": "", "purchasable": false },
+  {
+    "type": "LINE_PROPERTY",
+    "id": 39,
+    "stringId": "l8-2",
+    "name": "Madrid",
+    "img": "",
+    "purchasable": true,
+    "costs": { "purchase": 0, "house": 0, "hotel": 0 },
+    "incomes": { "property": 0, "house": 0, "hotel": 0, "sell": 0, "sellHouse": 0, "sellHotel": 0 }
+  }
+]

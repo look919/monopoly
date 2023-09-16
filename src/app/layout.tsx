@@ -1,8 +1,8 @@
 import { ReactNode } from 'react';
+import { Roboto } from '@next/font/google';
 import './globals.css';
-import { Poppins } from 'next/font/google';
 
-const font = Poppins({ subsets: ['latin-ext'], weight: ['100', '400', '700'] });
+const roboto = Roboto({ subsets: ['latin-ext'], variable: '--font-inter', weight: ['100', '400', '900'] });
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang='en'>
-      <body className={font.className}>{children}</body>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }

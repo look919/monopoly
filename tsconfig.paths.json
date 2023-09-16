@@ -3,8 +3,12 @@
     "baseUrl": "./src",
     "paths": {
       "@page/*": ["app/*"],
-      "@ui": ["components"],
-      "@ui-client": ["components/client"]
+      "@components": ["./components"],
+      "@components/*": ["./components/*"],
+      "@logic": ["./logic"],
+      "@logic/*": ["./logic/*"],
+      "@utils": ["./utils"],
+      "@utils/*": ["./utils/*"]
     }
   }
 }
